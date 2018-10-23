@@ -54,7 +54,7 @@ def random_groups2(names, group_size):
     #   count+=1
     #   i+=1
 
-    # heidi: below fixed the bug with 11
+    # heidi: below fixed the bug with 11. Bug was on i < num_groups. So it only go thru the groups once
     while count < n:     
       res[i].append(names[count])
       count+=1
